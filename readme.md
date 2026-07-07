@@ -45,10 +45,9 @@ Success?
       │
       ├── Yes → Upload Complete
       │
-      └── No
-            │
-            ▼
-PUBLIC_URL
+      └── No -> PUBLIC_URL
+        
+
 ```
 
 ---
@@ -120,7 +119,7 @@ No additional dotenv package configuration is required.
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/TRACKER-CLIENT.git
+git clone https://github.com/Mustafiz82/activity-tracker-client
 ```
 
 ---
@@ -252,30 +251,30 @@ TRACKER-CLIENT/
 
 ```text
 Electron Starts
-        │
-        ▼
+       │
+       ▼
 Runs in System Tray
-        │
-        ▼
+       │
+       ▼
 Random Timer (1–10 min)
-        │
-        ▼
+       │
+       ▼
 Capture Screenshot
-        │
-        ▼
+       │
+       ▼
 Read ActivityWatch Database
-        │
-        ▼
+       │
+       ▼
 Upload to LOCAL_URL
-        │
-        ├── Success ✔
-        │
-        └── Failed
-              │
-              ▼
-Upload to PUBLIC_URL
-              │
-              ▼
+       │
+       ├────────────► Success ✓
+       │
+       └────────────► Failed
+                      │
+                      ▼
+ Upload to PUBLIC_URL
+                      │
+                      ▼
 Show Desktop Notification
 ```
 
