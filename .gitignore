@@ -1,0 +1,24 @@
+# Dependency directories (regenerated via npm install)
+node_modules/
+
+# Compiled production outputs and installers
+dist/
+
+# Sensitive local configuration (server IPs, URLs)
+.env
+.env.local
+.env.production
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Editor configurations (optional)
+.vscode/
+.idea/
