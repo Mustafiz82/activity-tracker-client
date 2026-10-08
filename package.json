@@ -1,6 +1,6 @@
 {
   "name": "aw-helper",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Secure Workspace Tracker",
   "main": "main.js",
   "scripts": {
@@ -22,7 +22,11 @@
   },
   "build": {
     "appId": "com.tracker.app",
-    "productName": "awHelper",
+    "productName": "aw-helper",
+    "asar": true,
+    "asarUnpack": [
+      "**/node_modules/screenshot-desktop/**/*"
+    ],
     "win": {
       "target": [
         "nsis"
